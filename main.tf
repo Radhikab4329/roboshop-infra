@@ -24,8 +24,8 @@ module "subnets" {
 
 }
 
-output "subnet_ids" {
-  value = lookup(lookup(module.subnets, "public", null), "subnet_ids", null)
-}
+#output "subnet_ids" {
+#  value = lookup(lookup(module.subnets, "public", null), "subnet_ids", null)
+#}
 
 
