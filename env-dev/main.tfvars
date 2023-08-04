@@ -58,7 +58,7 @@ rds = {
   }
 }
 
-rds = {
+elasicache = {
   main = {
     vpc_name                = "main"
     subnets_name            = "db"
